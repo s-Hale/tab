@@ -1,5 +1,14 @@
 
 
-.test {
-    color: slategrey;
-}
+.tabs {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .tab-buttons {
+    font-family: Tahoma, sans-serif;
+  }
+
+  .tabpanels {
+    font-family: Tahoma, sans-serif;
+  }
