@@ -1,4 +1,8 @@
 
+.wrapper {
+    padding: 4rem 2rem;
+    background-color: #DFEAEF;
+}
 
 .tabs {
     display: flex;
@@ -9,10 +13,15 @@
   font-family: Tahoma, sans-serif;
   font-weight: 800;
   background-color: lightgray;
-  border: none;
+  border-top: 3px solid lightgray;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
   outline: none;
   cursor: pointer;
   padding: 0.9rem;
+  margin-right: 1px;
+  color: #343a63;
 }
 
 .tabs button.active {
@@ -20,7 +29,40 @@
     border-top: 3px solid #2d989c;
   }
 
+.tabs button:hover {
+    background-color: slategray;
+    border-top: 3px solid slategray;
+}
+  
+.tabs button.active {
+    background-color: white;
+    border-top: 3px solid #2d989c;
+    margin-right: 0;
+}
+  
 .tabpanels {
     display: none;
     font-family: Tahoma, sans-serif;
+    font-size: 0.85rem;
+    color: #343a63;
+    background-color: white;
+    padding: 0.6rem 1rem;
+    border-top: none;
+}
+  
+.body-text {
+    letter-spacing: 0.5px;
+}
+  
+@media only screen and (max-width: 435px) {
+  .tabs {
+      flex-direction: column;
   }
+  .tabpanels {
+      line-height: 1.2rem;
+  }
+  .tabs button {
+      width: 100%;
+      font-size: 0.7rem;
+  }
+}

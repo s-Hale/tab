@@ -6,31 +6,35 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Tab Challenge</title>
 		<link rel="stylesheet" href="style.css">
-	
 	</head>
 	<body>
 		<div class="wrapper">
-			<div class="tabs">
-				<button class="tab-buttons" onclick="tabChange(event, 'Terminal 1')" id='default'>Terminal 1</button>
-				<button class="tab-buttons" onclick="tabChange(event, 'Terminal 2')">Terminal 2</button>
-				<button class="tab-buttons" onclick="tabChange(event, 'Terminal 3')">Terminal 3</button>
-			  </div>
-	  
+		  <div class="tabs">
+			<button class="tab-buttons" onclick="tabChange(event, 'Terminal 1')" id="default">Terminal 1</button>
+			<button class="tab-buttons" onclick="tabChange(event, 'Terminal 2')">Terminal 2</button>
+			<button class="tab-buttons" onclick="tabChange(event, 'Terminal 3')">Terminal 3</button>
+		  </div>
 		  <div id="Terminal 1" class="tabpanels">
 			<h3>Directions</h3>
-			<p>text here</p>
+			<p class='body-text'>
+			  Set your maps to Manchester Airport and exit the M56 at Junction 5 and get in lane for Terminal 1 (T1). At the set of traffic lights, go straight ahead for T1.</p>
+			<p class='body-text'>At the roundabout, take the 5th exit and follow signs for T1 Meet & Greet (T1 M&G). After 0.1 mile take the first available left turn and continue 0.1mile to a roundabout. Take the first exit and the entrance to T1 M&g is then immediately on your
+			  right.</p>
 		  </div>
-	  
 		  <div id="Terminal 2" class="tabpanels">
 			<h3>Directions</h3>
-			<p>text here also</p>
+			<p class='body-text'>
+			  Approach Manchester Airport and exit the M56 at Junction 5 and get in lane for Terminal 1 (T1). At the set of traffic lights, turn right for T2.</p>
+			<p class='body-text'>Follow signs for T2 Meet & Greet (T1 M&G). After 0.1 mile take the first available left turn and continue 0.1mile to a roundabout. Take the first exit, then the third, then the second, then the first again and the entrance to T2 is immediately on
+			  your right.</p>
 		  </div>
-	  
 		  <div id="Terminal 3" class="tabpanels">
 			<h3>Directions</h3>
-			<p>and here</p>
+			<p class='body-text'>
+			  Upon arrival at Manchester Airport exit the M56 at Junction 5 and get in lane for Terminal 1 (T1). At the set of traffic lights, turn right for T3.</p>
+			<p class='body-text'>Follow signs for T3 Meet & Greet (T3 M&G). After 0.6 mile take the first available left turn and the entrance to T3 is immediately on your right.</p>
 		  </div>
 		</div>
 	  </body>
-	  <script src="tabs.js"></script>
+	<script src="tabs.js"></script>
 </html>
