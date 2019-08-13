@@ -1,7 +1,7 @@
 
 .wrapper {
     padding: 4rem 2rem;
-    background-color: #DFEAEF;
+    background-color: #F4F4F4;
 }
 
 .tabs {
@@ -12,14 +12,14 @@
 .tab-buttons {
   font-family: Tahoma, sans-serif;
   font-weight: 800;
-  background-color: lightgray;
-  border-top: 3px solid lightgray;
+  background-color: #EAEAEA;
+  border-top: 3px solid #EAEAEA;
   border-bottom: none;
   border-left: none;
   border-right: none;
   outline: none;
   cursor: pointer;
-  padding: 0.9rem;
+  padding: 0.7rem 1.8rem;
   margin-right: 1px;
   color: #343a63;
 }
@@ -46,12 +46,13 @@
     font-size: 0.85rem;
     color: #343a63;
     background-color: white;
-    padding: 0.6rem 1rem;
+    padding: 2rem 3rem;
     border-top: none;
 }
   
 .body-text {
     letter-spacing: 0.5px;
+    line-height: 1.2rem;
 }
   
 @media only screen and (max-width: 435px) {
