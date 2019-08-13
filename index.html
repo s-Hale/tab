@@ -6,15 +6,15 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Tab Challenge</title>
 		<link rel="stylesheet" href="style.css">
-		<script src="tabs.js"></script>
+	
 	</head>
 	<body>
 		<div class="wrapper">
-		  <div class="tabs">
-			<button class="tab-buttons">Terminal 1</button>
-			<button class="tab-buttons">Terminal 2</button>
-			<button class="tab-buttons">Terminal 3</button>
-		  </div>
+			<div class="tabs">
+				<button class="tab-buttons" onclick="tabChange(event, 'Terminal 1')" id='default'>Terminal 1</button>
+				<button class="tab-buttons" onclick="tabChange(event, 'Terminal 2')">Terminal 2</button>
+				<button class="tab-buttons" onclick="tabChange(event, 'Terminal 3')">Terminal 3</button>
+			  </div>
 	  
 		  <div id="Terminal 1" class="tabpanels">
 			<h3>Directions</h3>
@@ -32,4 +32,5 @@
 		  </div>
 		</div>
 	  </body>
+	  <script src="tabs.js"></script>
 </html>
